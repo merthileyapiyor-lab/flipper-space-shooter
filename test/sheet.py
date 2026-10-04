@@ -5,7 +5,7 @@ import struct
 import zlib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SCALE, PAD, COLS = 3, 6, 2
+SCALE, PAD, COLS = 2, 5, 4
 FG, BG, FRAME_BG = (20, 20, 20), (60, 60, 60), (255, 140, 30)  # Flipper orange LCD
 
 
