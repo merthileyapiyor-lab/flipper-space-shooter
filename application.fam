@@ -1,0 +1,15 @@
+App(
+    appid="space_shooter",
+    name="Space Shooter",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="space_shooter_app",
+    sources=["space_shooter.c", "game.c"],
+    requires=["gui"],
+    stack_size=4 * 1024,
+    fap_category="Games",
+    fap_icon="icon.png",
+    fap_version="1.0",
+    fap_description="Vertical space shooter: waves, bosses, power-ups and a saved high score.",
+    fap_author="avcibora",
+    fap_weburl="https://github.com/merthileyapiyor-lab/flipper-space-shooter",
+)
